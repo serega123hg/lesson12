@@ -1,0 +1,34 @@
+.popup{
+	top: 50px;
+	left: 40vw;
+	width: 210px;
+	height: 200px;
+    position: fixed;
+    background-color: #aeaeae;
+    display: none;
+    transition: all 0.2s;
+}
+
+.close{
+	text-decoration: none;
+	position: absolute;
+    top: 5px;
+    left: 175px;
+    font-size: 25px;
+}
+.text{
+	padding-top: 50px;
+	color: white;
+	text-align: center;
+}
+.wrap{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.popup:target{
+	display: block;
+}
